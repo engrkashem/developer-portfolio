@@ -78,6 +78,13 @@ div>i {
     font-size: 100px;
 }
 
+.projects {
+    background-image: url(/images/bg-projects.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
 
 
 footer {

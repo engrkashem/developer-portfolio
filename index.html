@@ -216,18 +216,32 @@
 
         </div>
     </section>
-    <section id="projects p-5">
-        <div class="card mb-3" style="max-width: 540px;">
+    <section id="projects" class="projects p-5">
+        <div class="card mb-3" style="max-width: 100%;">
             <div class="row g-0">
                 <div class="col-sm-12 col-lg-4">
                     <img src="/images/project-banner.jpg" class="img-fluid rounded-start h-100" alt="...">
                 </div>
                 <div class="col-sm-12 col-lg-8">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">SKS Inc. || <a target="_blank" href="https://sks-inc.web.app/">Live
+                                Site</a> || <a target="_blank"
+                                href="https://github.com/engrkashem/SKS-Inc-client">Client
+                                Side Repo </a> || <a target="_blank"
+                                href="https://github.com/engrkashem/SKS-Inc-server">Server Side Repo</a></h5>
+                        <ul class="card-text">
+                            <li>Project has been implemented based on React.js, Firebase for Authentication, Admin
+                                Dashboard Private rout where some sub-rout only accessible to users who are admin only.
+                                Admin URLs is protected by requireAdmin private protected route.</li>
+                            <li>Node.js is the base technology in server side. Express.js is utilized as framework. Some
+                                APIs are protected from non admin user. APIs URLs are protected by JWT token
+                                verification.</li>
+                            <li>MongoDB is used as database for this project.</li>
+                            <li> A user can Update his/her profile, provide a review and order their desired tools.
+                                Order can be confirmed through card payment via stripe.</li>
+                            <li>An admin can ship a payment completed order, cancel an unpaid order, add a product to
+                                order list, can make a user an admin etc.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
