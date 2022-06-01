@@ -85,6 +85,13 @@ div>i {
     min-height: 100vh;
 }
 
+.contact {
+    background-image: url(/images/bg-contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
 
 
 footer {
